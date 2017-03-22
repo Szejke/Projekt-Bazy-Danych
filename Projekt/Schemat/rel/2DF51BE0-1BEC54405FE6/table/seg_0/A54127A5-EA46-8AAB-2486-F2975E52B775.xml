@@ -24,6 +24,7 @@
 <createdTime>2017-03-22 19:43:06 UTC</createdTime>
 <generatorID>046BD0E6-3CAB-6C16-81EE-6A7F03AE787E</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>

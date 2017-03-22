@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="41DBACE6-F4DA-0FC3-1D8B-31C2ADB31688">
+<Attribute name="Rodzaj autobusu ID" id="41DBACE6-F4DA-0FC3-1D8B-31C2ADB31688">
 <createdBy>Rafał</createdBy>
 <createdTime>2017-03-22 19:41:31 UTC</createdTime>
 <generatorID>79DE07F8-5285-B12C-9C64-D86F5F1A371A</generatorID>
@@ -35,7 +35,22 @@
 <engineerTo>
 <item key="2DF51BE0-7F03-4B2C-626F-1BEC54405FE6" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>9A4D48B1-7E03-BB1C-EF36-0ADD4AE3173D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="871769C7-0386-296B-2F0B-4589696C8CED">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:53:45 UTC</createdTime>
+<generatorID>EBA3147F-33A4-D8D9-18B9-BF23D621C37B</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="2DF51BE0-7F03-4B2C-626F-1BEC54405FE6" value="true"/>
+</engineerTo>
+<referedAttribute>D58E4ED0-8E4E-1283-0801-BEA288140BE6</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>

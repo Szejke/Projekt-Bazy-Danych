@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="046BD0E6-3CAB-6C16-81EE-6A7F03AE787E">
+<Attribute name="Przystanek ID" id="046BD0E6-3CAB-6C16-81EE-6A7F03AE787E">
 <createdBy>Rafał</createdBy>
 <createdTime>2017-03-22 19:42:52 UTC</createdTime>
 <generatorID>857106FD-24AB-FAC8-A1E7-A3DCCD161C5F</generatorID>
@@ -35,6 +35,7 @@
 <engineerTo>
 <item key="2DF51BE0-7F03-4B2C-626F-1BEC54405FE6" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>13DCE6D4-4771-5517-6C5F-F363BEFE2D4E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

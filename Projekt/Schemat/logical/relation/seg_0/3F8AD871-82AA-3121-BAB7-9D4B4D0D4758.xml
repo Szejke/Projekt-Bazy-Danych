@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_13" directorySegmentName="seg_0" id="3F8AD871-82AA-3121-BAB7-9D4B4D0D4758">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Przystanek Miejscowosc FK" directorySegmentName="seg_0" id="3F8AD871-82AA-3121-BAB7-9D4B4D0D4758">
 <createdBy>Rafał</createdBy>
 <createdTime>2017-03-22 19:39:27 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
@@ -9,7 +9,7 @@
 <sourcePk>FE52D73E-03FB-E8DE-48FE-2C49963E5066</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>0474E7B4-2393-1A2A-A07D-178EC396B6F7</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>

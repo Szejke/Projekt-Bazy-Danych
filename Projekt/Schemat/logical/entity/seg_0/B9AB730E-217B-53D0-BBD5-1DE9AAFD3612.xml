@@ -27,6 +27,48 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Imie" id="A45788FE-B258-2214-51D8-4E3A35A0D06E">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:53:45 UTC</createdTime>
+<generatorID>714ADA33-AE93-BAB7-1733-F644729356CE</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="2DF51BE0-7F03-4B2C-626F-1BEC54405FE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="6C677F78-5431-FC88-6D16-D1950F6629B1">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:53:45 UTC</createdTime>
+<generatorID>EDF5C8AD-D511-0A16-391D-568722E08CF4</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="2DF51BE0-7F03-4B2C-626F-1BEC54405FE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="1843CCFC-5A43-AB2E-50EB-FC6ACFA1CD5A">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:53:45 UTC</createdTime>
+<generatorID>D305F5CE-6A64-07FE-66F5-C95DE3FF6ED8</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="2DF51BE0-7F03-4B2C-626F-1BEC54405FE6" value="true"/>
+</engineerTo>
+<referedAttribute>D58E4ED0-8E4E-1283-0801-BEA288140BE6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="98B32D43-B071-9C32-F044-8939CA288DCC" name="Kierowca PK">

@@ -19,6 +19,28 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Imie" id="BC7880F4-4F7C-1B20-0AC0-3AC9AC03E489">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:50:02 UTC</createdTime>
+<ownerDesignName>Schemat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwisko" id="837E4746-D58E-AC40-0562-E97EF6140B19">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:50:18 UTC</createdTime>
+<ownerDesignName>Schemat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="86F88574-87F7-85F0-DB0A-A764B652D3B7" name="Klient_PK">

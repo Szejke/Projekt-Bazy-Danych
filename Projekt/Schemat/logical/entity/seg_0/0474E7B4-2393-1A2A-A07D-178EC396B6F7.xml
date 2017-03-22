@@ -27,6 +27,20 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Nazwa" id="41B7EFEE-81E6-FDB7-F274-EF4C79C5D2C0">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:53:45 UTC</createdTime>
+<generatorID>EBFE462F-63D1-CB23-F457-FFDAA41EE435</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="2DF51BE0-7F03-4B2C-626F-1BEC54405FE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="FE52D73E-03FB-E8DE-48FE-2C49963E5066" name="Miejscowosc PK">

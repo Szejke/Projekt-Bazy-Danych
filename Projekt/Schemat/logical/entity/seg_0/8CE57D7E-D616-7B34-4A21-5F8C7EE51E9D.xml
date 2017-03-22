@@ -26,6 +26,34 @@
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Data" id="D6D84C18-EB38-00C0-1ED6-641D96847B3D">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:53:45 UTC</createdTime>
+<generatorID>95530208-C32D-7F4A-3EA2-BD036F1CCEA0</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="2DF51BE0-7F03-4B2C-626F-1BEC54405FE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="63965A4F-8109-CB9B-9B0C-031FE0588B82">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:53:45 UTC</createdTime>
+<generatorID>C17CAB68-2302-E3AB-0DA4-59FB8200FCFC</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="2DF51BE0-7F03-4B2C-626F-1BEC54405FE6" value="true"/>
+</engineerTo>
+<referedAttribute>D58E4ED0-8E4E-1283-0801-BEA288140BE6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="CAD9BBBB-CACD-F67D-8182-2FA3BC363CAF" name="Czas PK">

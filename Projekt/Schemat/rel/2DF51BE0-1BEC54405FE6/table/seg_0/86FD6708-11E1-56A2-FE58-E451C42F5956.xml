@@ -19,6 +19,28 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Marka" id="AA1D8004-C14E-C8BB-CD42-059481C3BD6C">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:51:29 UTC</createdTime>
+<ownerDesignName>Schemat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ilosc_miejsc" id="544377DE-2A29-5C54-F53D-457CAC4D65B9">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:51:49 UTC</createdTime>
+<ownerDesignName>Schemat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="8B8CF806-5A76-3471-9195-84AC5A1B5958" name="Rodzaj_autobusu_PK">

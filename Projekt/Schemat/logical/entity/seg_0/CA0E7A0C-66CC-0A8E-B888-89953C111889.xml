@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="56C529D4-7333-0DBE-DACE-3D6F43977852">
+<Attribute name="Rodzaj biletu ID" id="56C529D4-7333-0DBE-DACE-3D6F43977852">
 <createdBy>Rafał</createdBy>
 <createdTime>2017-03-22 19:41:19 UTC</createdTime>
 <generatorID>7886379C-09A3-E8F9-124E-13A96316E0C0</generatorID>
@@ -35,6 +35,7 @@
 <engineerTo>
 <item key="2DF51BE0-7F03-4B2C-626F-1BEC54405FE6" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>23CD9F53-9142-0260-66BF-2EDEBFB4D11E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

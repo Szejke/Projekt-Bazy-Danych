@@ -27,6 +27,34 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Imie" id="19407CF7-5C7C-A5F8-20A4-10F2885BD42D">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:53:45 UTC</createdTime>
+<generatorID>BC7880F4-4F7C-1B20-0AC0-3AC9AC03E489</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="2DF51BE0-7F03-4B2C-626F-1BEC54405FE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="2605A5EA-4F5E-962F-B684-EE7F689C0E5E">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:53:45 UTC</createdTime>
+<generatorID>837E4746-D58E-AC40-0562-E97EF6140B19</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="2DF51BE0-7F03-4B2C-626F-1BEC54405FE6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D735CCFB-AE71-CA82-1AD3-C181567B5DA5" name="Klient PK">
