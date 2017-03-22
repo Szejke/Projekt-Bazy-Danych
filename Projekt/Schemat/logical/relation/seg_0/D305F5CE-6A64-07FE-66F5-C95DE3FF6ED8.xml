@@ -10,7 +10,7 @@
 <targetPk>98B32D43-B071-9C32-F044-8939CA288DCC</targetPk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>F65EB20C-8446-3E16-DFEB-9B9B76E62D5E</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>
