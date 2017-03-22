@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E419F6DB-B61B-EEE8-57CC-7685B81B99BF" name="Przystanek">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:43:06 UTC</createdTime>
+<generatorID>46F88FB9-363C-AC9A-A924-CBB079227C01</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="D81E4DAA-B7FE-8930-BDA0-75A02E66F56E">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:43:06 UTC</createdTime>
+<generatorID>13DCE6D4-4771-5517-6C5F-F363BEFE2D4E</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Miejscowosc_ID" id="0300C1B3-5D4E-1A40-D29A-59DF838EDC59">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:43:06 UTC</createdTime>
+<generatorID>951BAA29-10B7-BA7F-23EE-EFE9E8C59DA9</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B446FC6-4910-365E-053E-179C34EC7413" referredColumn="70B33B26-C67B-A22E-6348-4243A659F28A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78AA05C9-5A39-8FF7-52C0-6CE3A3B34301" name="Przystanek_PK">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:43:06 UTC</createdTime>
+<generatorID>818BC94B-0925-DD9A-939A-1F7ED3852C8E</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D81E4DAA-B7FE-8930-BDA0-75A02E66F56E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BC732E1-3B1A-860E-CF8D-98D52C8CE539" name="Przystanek_Miejscowosc_FK">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:43:06 UTC</createdTime>
+<generatorID>3F8AD871-82AA-3121-BAB7-9D4B4D0D4758</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0300C1B3-5D4E-1A40-D29A-59DF838EDC59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

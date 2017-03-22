@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="159679EA-B016-E382-070A-F8001672B92C" name="Czas">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:43:06 UTC</createdTime>
+<generatorID>8CE57D7E-D616-7B34-4A21-5F8C7EE51E9D</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="38DC7128-8E73-48E8-436B-52D894550AF9">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:43:06 UTC</createdTime>
+<generatorID>A38C09EE-6F41-8C96-3DCF-DDEB5E7F9B45</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08D639AC-34BE-A311-9DB3-38A280C4C2DF" name="Czas_PK">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:43:06 UTC</createdTime>
+<generatorID>CAD9BBBB-CACD-F67D-8182-2FA3BC363CAF</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38DC7128-8E73-48E8-436B-52D894550AF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A54127A5-EA46-8AAB-2486-F2975E52B775" name="Linia">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:43:06 UTC</createdTime>
+<generatorID>4E8ABFFF-394C-02CE-6CAA-FAE2195F11C2</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="B3AA7712-9B1F-BC03-D0C1-E5E25F61E70B">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:43:06 UTC</createdTime>
+<generatorID>1D13A506-9921-9C6E-D52E-095845FE55FB</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Przystanek_ID" id="A5AD60A1-3B12-424F-6B13-A6A5CA5853F8">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:43:06 UTC</createdTime>
+<generatorID>046BD0E6-3CAB-6C16-81EE-6A7F03AE787E</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="964D8C34-DDC6-AA3F-0C01-36079B41F273" referredColumn="D81E4DAA-B7FE-8930-BDA0-75A02E66F56E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9527C2D1-B9EA-4AA8-95E1-4A35C06F77C6" name="Linia_PK">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:43:06 UTC</createdTime>
+<generatorID>812CDD25-1B46-CC62-D255-21ACB280BB96</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3AA7712-9B1F-BC03-D0C1-E5E25F61E70B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB4A4E6B-A1AA-A597-582A-6CE240DFC45C" name="Linia_Przystanek_FK">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:43:06 UTC</createdTime>
+<generatorID>857106FD-24AB-FAC8-A1E7-A3DCCD161C5F</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5AD60A1-3B12-424F-6B13-A6A5CA5853F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
