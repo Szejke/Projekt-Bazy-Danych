@@ -35,6 +35,17 @@
 <colAssociation fkAssociation="2B446FC6-4910-365E-053E-179C34EC7413" referredColumn="70B33B26-C67B-A22E-6348-4243A659F28A"/>
 </associations>
 </Column>
+<Column name="Nazwa_przystanku" id="F35B2F5C-0146-B34B-E609-B4E977C37D4D">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 13:16:23 UTC</createdTime>
+<ownerDesignName>Schemat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="78AA05C9-5A39-8FF7-52C0-6CE3A3B34301" name="Przystanek_PK">
