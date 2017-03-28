@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B9AB730E-217B-53D0-BBD5-1DE9AAFD3612" name="Kierowca">
-<createdBy>Rafał</createdBy>
-<createdTime>2017-03-22 19:32:37 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AA816FB4-874C-57B0-0020-79D798EC55B3" name="Model_autobusu">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 18:54:47 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
 <item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="4B9BDB72-3E2E-9477-EC62-CB9667656693">
-<createdBy>Rafał</createdBy>
-<createdTime>2017-03-22 19:40:14 UTC</createdTime>
+<Attribute name="ID" id="980B2E9E-6AFF-CED4-8385-E3340FDEE989">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 18:54:56 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
 <item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
@@ -27,10 +27,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Imie" id="A45788FE-B258-2214-51D8-4E3A35A0D06E">
-<createdBy>Rafał</createdBy>
-<createdTime>2017-03-22 19:53:45 UTC</createdTime>
-<generatorID>714ADA33-AE93-BAB7-1733-F644729356CE</generatorID>
+<Attribute name="Nazwa" id="B2AE64CF-9017-ED1F-2034-C914A56D2D83">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 18:55:15 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
 <item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
@@ -41,10 +40,9 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nazwisko" id="6C677F78-5431-FC88-6D16-D1950F6629B1">
-<createdBy>Rafał</createdBy>
-<createdTime>2017-03-22 19:53:45 UTC</createdTime>
-<generatorID>EDF5C8AD-D511-0A16-391D-568722E08CF4</generatorID>
+<Attribute name="Ilosc_Miejsc" id="858D8BB8-94D0-3B95-8206-8582937F2269">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 18:56:36 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
 <item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
@@ -52,21 +50,36 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="12F3D81F-B3DB-0372-6444-B231279876FF">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 18:58:49 UTC</createdTime>
+<generatorID>1F88DDB1-E7C1-5737-4B93-CD7CDB11CFD3</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
+</engineerTo>
+<referedAttribute>57A96CC8-D737-88CD-AA27-ACA915D6DF40</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="98B32D43-B071-9C32-F044-8939CA288DCC" name="Kierowca PK">
-<createdBy>Rafał</createdBy>
-<createdTime>2017-03-22 19:40:27 UTC</createdTime>
+<identifier id="C6D9B501-4ECC-165C-C7D0-8EC37F89DC87" name="Model_autobusu PK">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 18:55:01 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
 <item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>4B9BDB72-3E2E-9477-EC62-CB9667656693</attributeRef>
+<attributeRef>980B2E9E-6AFF-CED4-8385-E3340FDEE989</attributeRef>
+<attributeRef>12F3D81F-B3DB-0372-6444-B231279876FF</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

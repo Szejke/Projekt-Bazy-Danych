@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77FEB0A4-AB45-6AD8-0F3F-29D5638FC7BA" name="Przystanek_koncowy">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:22:11 UTC</createdTime>
+<generatorID>7E591F98-92D6-C885-3492-D5FEB39B93C2</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="626EACFF-7F45-8FA3-D22F-78DE61738DE5">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:22:11 UTC</createdTime>
+<generatorID>A9D50A99-E56B-8C83-0D00-BC996F7C85DD</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Przystanek_ID" id="9BCEE7AF-36A0-C259-4CCC-71A6F1B4B43D">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:22:11 UTC</createdTime>
+<generatorID>08889C3D-C967-C13B-DC97-01FCE1D2F4D5</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0E6FB49-35EB-E3D4-5948-9EC1350C392F" referredColumn="43693860-319D-C321-684B-433D5F654844"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF1A6BF9-0177-6EF4-2244-E5F3F246CFAA" name="Przystanek_koncowy_PK">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:22:11 UTC</createdTime>
+<generatorID>3584487F-ABF7-F920-37A2-881B3E06F18F</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="626EACFF-7F45-8FA3-D22F-78DE61738DE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7D9461F-4408-D450-D09C-C7103A67817D" name="Przystanek_koncowy_Przystanek_FK">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:22:12 UTC</createdTime>
+<generatorID>082E6D0B-AB5B-D142-3784-860F02DD4290</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BCEE7AF-36A0-C259-4CCC-71A6F1B4B43D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

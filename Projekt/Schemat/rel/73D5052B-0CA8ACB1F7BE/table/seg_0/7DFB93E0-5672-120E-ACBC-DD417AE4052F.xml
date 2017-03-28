@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7DFB93E0-5672-120E-ACBC-DD417AE4052F" name="Bilet">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:22:11 UTC</createdTime>
+<generatorID>D8107D73-730A-0B42-2BC0-B35CB077F655</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="42EF3294-6F00-A910-FD3D-8217F06C3C1E">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:22:11 UTC</createdTime>
+<generatorID>617D143B-CC65-2B0E-67A5-A51BA6156967</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rodzaj_biletu_Rodzaj_biletu_ID" id="5DFC0236-86E3-7842-DF35-032B9FD84AF1">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:22:12 UTC</createdTime>
+<ownerDesignName>Schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="913CD978-8331-DEF3-41A4-5593776F19E9" referredColumn="985473EE-E6E1-9946-F512-2DB4F8E1D9DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7611BF0-0BB9-5D2C-867F-95444E7ED1AD" name="Bilet_PK">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:22:11 UTC</createdTime>
+<generatorID>C5723BA6-52F4-E00E-0B5A-501571AE686D</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42EF3294-6F00-A910-FD3D-8217F06C3C1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C25E5B7-2F85-6F35-D9B6-693F50A5D894" name="Bilet_Rodzaj_biletu_FK">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:22:12 UTC</createdTime>
+<generatorID>814EE47C-9F58-A27E-9398-33F00B47D2BC</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DFC0236-86E3-7842-DF35-032B9FD84AF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

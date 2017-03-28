@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B9AB730E-217B-53D0-BBD5-1DE9AAFD3612" name="Kierowca">
-<createdBy>Rafał</createdBy>
-<createdTime>2017-03-22 19:32:37 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5563667F-3E11-3364-5E7D-2D4A5E6508F7" name="Przystanek">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:05:24 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
 <item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="4B9BDB72-3E2E-9477-EC62-CB9667656693">
-<createdBy>Rafał</createdBy>
-<createdTime>2017-03-22 19:40:14 UTC</createdTime>
+<Attribute name="ID" id="978A85E0-50BE-64CF-DA54-BD6C138B1C1B">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:05:29 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
 <item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
@@ -27,10 +27,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Imie" id="A45788FE-B258-2214-51D8-4E3A35A0D06E">
-<createdBy>Rafał</createdBy>
-<createdTime>2017-03-22 19:53:45 UTC</createdTime>
-<generatorID>714ADA33-AE93-BAB7-1733-F644729356CE</generatorID>
+<Attribute name="Nazwa" id="FD130EB5-0495-DDC6-4653-A93E7E201BB6">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:05:46 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
 <item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
@@ -41,10 +40,23 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nazwisko" id="6C677F78-5431-FC88-6D16-D1950F6629B1">
-<createdBy>Rafał</createdBy>
-<createdTime>2017-03-22 19:53:45 UTC</createdTime>
-<generatorID>EDF5C8AD-D511-0A16-391D-568722E08CF4</generatorID>
+<Attribute name="ID1" id="671A0A01-0944-48B7-053A-916E5E1DFB60">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:12:35 UTC</createdTime>
+<generatorID>CAFDAA18-1005-A725-2B5A-D19FA820A83C</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
+</engineerTo>
+<referedAttribute>26B7DEBF-9779-A1A0-8E1A-BDAD0B36C945</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ulica" id="0B4CD95E-982B-6AC9-4669-83755E081B18">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:12:52 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
 <item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
@@ -57,16 +69,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="98B32D43-B071-9C32-F044-8939CA288DCC" name="Kierowca PK">
-<createdBy>Rafał</createdBy>
-<createdTime>2017-03-22 19:40:27 UTC</createdTime>
+<identifier id="01D179CC-B504-790A-3B08-A2C9492B70FD" name="Przystanek PK">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:06:30 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
 <item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>4B9BDB72-3E2E-9477-EC62-CB9667656693</attributeRef>
+<attributeRef>978A85E0-50BE-64CF-DA54-BD6C138B1C1B</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

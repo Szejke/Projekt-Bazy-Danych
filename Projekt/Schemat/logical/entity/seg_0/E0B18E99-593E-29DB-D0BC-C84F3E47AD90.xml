@@ -4,7 +4,7 @@
 <createdTime>2017-03-22 19:33:07 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
-<item key="2DF51BE0-7F03-4B2C-626F-1BEC54405FE6" value="true"/>
+<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,39 +20,35 @@
 <createdTime>2017-03-22 19:40:33 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
-<item key="2DF51BE0-7F03-4B2C-626F-1BEC54405FE6" value="true"/>
+<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Rodzaj autobusu ID" id="41DBACE6-F4DA-0FC3-1D8B-31C2ADB31688">
-<createdBy>Rafał</createdBy>
-<createdTime>2017-03-22 19:41:31 UTC</createdTime>
-<generatorID>79DE07F8-5285-B12C-9C64-D86F5F1A371A</generatorID>
+<Attribute name="ID1" id="E9259E73-7320-11F7-7722-4509805D27D3">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 18:57:05 UTC</createdTime>
+<generatorID>4D791EDB-48E1-8F1B-369F-3A54916DD646</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
-<item key="2DF51BE0-7F03-4B2C-626F-1BEC54405FE6" value="true"/>
+<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>9A4D48B1-7E03-BB1C-EF36-0ADD4AE3173D</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
+<referedAttribute>980B2E9E-6AFF-CED4-8385-E3340FDEE989</referedAttribute>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="871769C7-0386-296B-2F0B-4589696C8CED">
-<createdBy>Rafał</createdBy>
-<createdTime>2017-03-22 19:53:45 UTC</createdTime>
-<generatorID>EBA3147F-33A4-D8D9-18B9-BF23D621C37B</generatorID>
+<Attribute name="ID11" id="D1962671-D1DA-A933-DF45-556C05BDC3B4">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 18:58:49 UTC</createdTime>
+<generatorID>4D791EDB-48E1-8F1B-369F-3A54916DD646</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
-<item key="2DF51BE0-7F03-4B2C-626F-1BEC54405FE6" value="true"/>
+<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>D58E4ED0-8E4E-1283-0801-BEA288140BE6</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
+<referedAttribute>12F3D81F-B3DB-0372-6444-B231279876FF</referedAttribute>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -64,7 +60,7 @@
 <createdTime>2017-03-22 19:40:43 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
-<item key="2DF51BE0-7F03-4B2C-626F-1BEC54405FE6" value="true"/>
+<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

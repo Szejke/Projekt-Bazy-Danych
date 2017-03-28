@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6367DEE-5D4F-F2BA-6A77-C9C4F70D8630" name="Przystanek">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:22:11 UTC</createdTime>
+<generatorID>5563667F-3E11-3364-5E7D-2D4A5E6508F7</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="43693860-319D-C321-684B-433D5F654844">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:22:11 UTC</createdTime>
+<generatorID>978A85E0-50BE-64CF-DA54-BD6C138B1C1B</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="E78CDF72-15DE-ACF6-600C-A98F8BE9C651">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:22:11 UTC</createdTime>
+<generatorID>FD130EB5-0495-DDC6-4653-A93E7E201BB6</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Miejscowosc_ID" id="B6EA190F-7C9F-C64F-40FD-C39E32D46200">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:22:11 UTC</createdTime>
+<generatorID>671A0A01-0944-48B7-053A-916E5E1DFB60</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C64B3F6C-9A19-F83A-AC68-A0A197CCB0EF" referredColumn="8DBD2163-9915-0A1F-A69B-D7E5657080D9"/>
+</associations>
+</Column>
+<Column name="Ulica" id="3C7EAFD1-B19D-CC0E-69B3-3FCE9856733B">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:22:11 UTC</createdTime>
+<generatorID>0B4CD95E-982B-6AC9-4669-83755E081B18</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1FDBAEA5-386F-8E2B-A9C0-456715ED217B" name="Przystanek_PK">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:22:11 UTC</createdTime>
+<generatorID>01D179CC-B504-790A-3B08-A2C9492B70FD</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43693860-319D-C321-684B-433D5F654844"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBB22BAB-9426-E050-3374-C6DF7299413D" name="Przystanek_Miejscowosc_FK">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:22:12 UTC</createdTime>
+<generatorID>CAFDAA18-1005-A725-2B5A-D19FA820A83C</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6EA190F-7C9F-C64F-40FD-C39E32D46200"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

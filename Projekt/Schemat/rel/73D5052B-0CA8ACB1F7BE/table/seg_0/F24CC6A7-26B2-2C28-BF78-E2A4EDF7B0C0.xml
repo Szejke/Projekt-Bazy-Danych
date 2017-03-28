@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F24CC6A7-26B2-2C28-BF78-E2A4EDF7B0C0" name="Przystanek_poczatkowy">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:22:11 UTC</createdTime>
+<generatorID>9D1A6783-8F58-B8C3-9331-25AD9D5A130F</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="D357A8CE-73D7-47BD-F8E7-3114E6594ACE">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:22:11 UTC</createdTime>
+<generatorID>1307DA85-1D0A-E787-1F1D-AEC060E3C14E</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6B9E10FD-E8F7-E494-1C59-95549DBEE67A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>999999</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="Przystanek_ID" id="DB40C807-C461-36C6-48D6-93030669074B">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:22:11 UTC</createdTime>
+<generatorID>34C0AADD-E4A1-F674-952B-183A8C3A9D8F</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDFA79F5-85E1-F442-2C9F-8EDB170E3C95" referredColumn="43693860-319D-C321-684B-433D5F654844"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5357855C-DB05-9B4B-D187-61D1BC647129" name="Przystanek_poczatkowy_PK">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:22:11 UTC</createdTime>
+<generatorID>0FDDAD74-47CF-3B81-3CCF-10C658EF2893</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D357A8CE-73D7-47BD-F8E7-3114E6594ACE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A9BDAD8-3F2E-E2C3-D64A-4E081FF068F5" name="Przystanek_poczatkowy_Przystanek_FK">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:22:12 UTC</createdTime>
+<generatorID>7E93F7CF-C7D3-A677-13FA-1B246CA3F434</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB40C807-C461-36C6-48D6-93030669074B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B9AB730E-217B-53D0-BBD5-1DE9AAFD3612" name="Kierowca">
-<createdBy>Rafał</createdBy>
-<createdTime>2017-03-22 19:32:37 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FFFEB79C-A9EC-56E5-DBD0-6A505E95554A" name="Rodzaj_biletu">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:19:13 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
 <item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
@@ -15,22 +15,22 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="4B9BDB72-3E2E-9477-EC62-CB9667656693">
-<createdBy>Rafał</createdBy>
-<createdTime>2017-03-22 19:40:14 UTC</createdTime>
+<Attribute name="ID" id="E809A6C3-67D0-1AA9-7026-89E797429520">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:19:31 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
 <item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Imie" id="A45788FE-B258-2214-51D8-4E3A35A0D06E">
-<createdBy>Rafał</createdBy>
-<createdTime>2017-03-22 19:53:45 UTC</createdTime>
-<generatorID>714ADA33-AE93-BAB7-1733-F644729356CE</generatorID>
+<Attribute name="Nazwa" id="B9631FC6-241D-48AC-F3F1-890E2EE7173D">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:19:41 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
 <item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
@@ -38,13 +38,12 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nazwisko" id="6C677F78-5431-FC88-6D16-D1950F6629B1">
-<createdBy>Rafał</createdBy>
-<createdTime>2017-03-22 19:53:45 UTC</createdTime>
-<generatorID>EDF5C8AD-D511-0A16-391D-568722E08CF4</generatorID>
+<Attribute name="Procent_zniżki" id="BFCE3717-314F-B3D2-4A98-890091DAD530">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:19:49 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
 <item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
@@ -52,22 +51,8 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="98B32D43-B071-9C32-F044-8939CA288DCC" name="Kierowca PK">
-<createdBy>Rafał</createdBy>
-<createdTime>2017-03-22 19:40:27 UTC</createdTime>
-<ownerDesignName>Schemat</ownerDesignName>
-<engineerTo>
-<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>4B9BDB72-3E2E-9477-EC62-CB9667656693</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>
