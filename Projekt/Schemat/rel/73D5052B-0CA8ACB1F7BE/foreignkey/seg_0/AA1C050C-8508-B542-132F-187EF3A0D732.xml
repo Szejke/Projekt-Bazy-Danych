@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AA1C050C-8508-B542-132F-187EF3A0D732" containerWithKeyObject="AF034391-1350-1FC2-680F-23D7F8A8FB64" localFKIndex="CD933C93-B0D3-49F5-AA1A-0AF810900669" name="Przejazd_Data_przejazdu_FK">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:48:59 UTC</createdTime>
+<generatorID>C17CAB68-2302-E3AB-0DA4-59FB8200FCFC</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8DDA6F44-9766-F3D4-9C89-DC12F247A47C</referredTableID>
+<keyObject>A30BC12D-5284-E668-6F89-216149E2D67F</keyObject>
+<referredKeyID>A30BC12D-5284-E668-6F89-216149E2D67F</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

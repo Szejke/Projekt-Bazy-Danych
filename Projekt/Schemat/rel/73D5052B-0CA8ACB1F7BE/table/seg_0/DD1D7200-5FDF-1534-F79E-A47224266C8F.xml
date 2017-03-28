@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77FEB0A4-AB45-6AD8-0F3F-29D5638FC7BA" name="Przystanek_koncowy">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD1D7200-5FDF-1534-F79E-A47224266C8F" name="Przystanek_koncowy">
 <createdBy>i3olo</createdBy>
-<createdTime>2017-03-28 19:22:11 UTC</createdTime>
+<createdTime>2017-03-28 19:48:59 UTC</createdTime>
 <generatorID>7E591F98-92D6-C885-3492-D5FEB39B93C2</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="626EACFF-7F45-8FA3-D22F-78DE61738DE5">
+<Column name="ID" id="4439475C-3DD3-42BD-B1EC-04A7F79C400C">
 <createdBy>i3olo</createdBy>
-<createdTime>2017-03-28 19:22:11 UTC</createdTime>
+<createdTime>2017-03-28 19:48:59 UTC</createdTime>
 <generatorID>A9D50A99-E56B-8C83-0D00-BC996F7C85DD</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Przystanek_ID" id="9BCEE7AF-36A0-C259-4CCC-71A6F1B4B43D">
+<Column name="Przystanek_ID" id="4EAA9CB7-02A7-F89D-9FF7-1B4F686C0EF2">
 <createdBy>i3olo</createdBy>
-<createdTime>2017-03-28 19:22:11 UTC</createdTime>
+<createdTime>2017-03-28 19:48:59 UTC</createdTime>
 <generatorID>08889C3D-C967-C13B-DC97-01FCE1D2F4D5</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,32 +31,32 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="B0E6FB49-35EB-E3D4-5948-9EC1350C392F" referredColumn="43693860-319D-C321-684B-433D5F654844"/>
+<colAssociation fkAssociation="84DEA550-4734-3048-BB81-D510BEB63872" referredColumn="C5C4E2E7-B980-8CBE-D86B-BCBCF6D05A37"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="CF1A6BF9-0177-6EF4-2244-E5F3F246CFAA" name="Przystanek_koncowy_PK">
+<ind_PK_UK id="EA8CA1A8-1DB3-1441-F701-320E6C8DF323" name="Przystanek_koncowy_PK">
 <createdBy>i3olo</createdBy>
-<createdTime>2017-03-28 19:22:11 UTC</createdTime>
+<createdTime>2017-03-28 19:48:59 UTC</createdTime>
 <generatorID>3584487F-ABF7-F920-37A2-881B3E06F18F</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="626EACFF-7F45-8FA3-D22F-78DE61738DE5"/>
+<colUsage columnID="4439475C-3DD3-42BD-B1EC-04A7F79C400C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B7D9461F-4408-D450-D09C-C7103A67817D" name="Przystanek_koncowy_Przystanek_FK">
+<ind_PK_UK id="99041C56-BD24-DB4C-7C3C-FA40ACB015C3" name="Przystanek_koncowy_Przystanek_FK">
 <createdBy>i3olo</createdBy>
-<createdTime>2017-03-28 19:22:12 UTC</createdTime>
+<createdTime>2017-03-28 19:48:59 UTC</createdTime>
 <generatorID>082E6D0B-AB5B-D142-3784-860F02DD4290</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9BCEE7AF-36A0-C259-4CCC-71A6F1B4B43D"/>
+<colUsage columnID="4EAA9CB7-02A7-F89D-9FF7-1B4F686C0EF2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -27,6 +27,20 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID1" id="1918BA32-96A5-147A-E8E4-BFE97450447B">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:48:47 UTC</createdTime>
+<generatorID>814EE47C-9F58-A27E-9398-33F00B47D2BC</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
+</engineerTo>
+<referedAttribute>E809A6C3-67D0-1AA9-7026-89E797429520</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="C5723BA6-52F4-E00E-0B5A-501571AE686D" name="Bilet PK">

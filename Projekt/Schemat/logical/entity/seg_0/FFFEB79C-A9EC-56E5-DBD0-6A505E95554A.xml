@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -55,4 +54,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BC50C831-9384-A50E-6E9A-DD9AB46653F8" name="Rodzaj_biletu PK">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 19:48:46 UTC</createdTime>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E809A6C3-67D0-1AA9-7026-89E797429520</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

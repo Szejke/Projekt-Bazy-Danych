@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="785D8E4D-7EA9-3135-ADA3-255AFE9F92CB" name="Autobus">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BEEC40FB-0AFC-09BB-9A57-A04B9E6314D0" name="Autobus">
 <createdBy>i3olo</createdBy>
-<createdTime>2017-03-28 19:22:11 UTC</createdTime>
+<createdTime>2017-03-28 19:48:59 UTC</createdTime>
 <generatorID>E0B18E99-593E-29DB-D0BC-C84F3E47AD90</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="D1B00957-DCB4-D0B1-3C49-E751517AE73B">
+<Column name="ID" id="7AE9D60D-210F-466A-84B4-16C1B750B865">
 <createdBy>i3olo</createdBy>
-<createdTime>2017-03-28 19:22:11 UTC</createdTime>
+<createdTime>2017-03-28 19:48:59 UTC</createdTime>
 <generatorID>07853721-48C1-E73F-C28D-C4B8CC135BF9</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Model_autobusu_ID" id="1258723E-3151-3FB3-CF78-15D61056EE12">
+<Column name="Model_autobusu_ID" id="7E226FC2-1B46-3857-8288-E5F918A9D51A">
 <createdBy>i3olo</createdBy>
-<createdTime>2017-03-28 19:22:11 UTC</createdTime>
+<createdTime>2017-03-28 19:48:59 UTC</createdTime>
 <generatorID>E9259E73-7320-11F7-7722-4509805D27D3</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,48 +31,32 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="ACD5986E-E5D9-689F-004E-23B783CE7B86" referredColumn="1FB4703D-6273-26C9-34E5-45132A07383B"/>
-</associations>
-</Column>
-<Column name="Model_autobusu_Marka_autobusu_ID" id="155293C2-5E32-B9DF-78DF-8D42C16EC2F0">
-<createdBy>i3olo</createdBy>
-<createdTime>2017-03-28 19:22:11 UTC</createdTime>
-<generatorID>D1962671-D1DA-A933-DF45-556C05BDC3B4</generatorID>
-<ownerDesignName>Schemat</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="ACD5986E-E5D9-689F-004E-23B783CE7B86" referredColumn="10C27F2E-A129-1F83-A300-6378672B1BA8"/>
+<colAssociation fkAssociation="F9BEED63-90D0-35D8-F07C-3822BD6123A5" referredColumn="AC9180DA-4892-B06E-582A-D076FD57FDBF"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="CD1F79EC-CDE4-2E1B-B063-2C99A7D8C249" name="Autobus_PK">
+<ind_PK_UK id="E0DCA547-3E2E-8592-D256-F5A84A53A81A" name="Autobus_PK">
 <createdBy>i3olo</createdBy>
-<createdTime>2017-03-28 19:22:11 UTC</createdTime>
+<createdTime>2017-03-28 19:48:59 UTC</createdTime>
 <generatorID>272FAC79-6758-B14F-1873-D7BFDA2E997F</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D1B00957-DCB4-D0B1-3C49-E751517AE73B"/>
+<colUsage columnID="7AE9D60D-210F-466A-84B4-16C1B750B865"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DC0F77D4-B898-7093-D2FC-081F060BDBED" name="Autobus_Model_autobusu_FK">
+<ind_PK_UK id="ADE0A857-5C64-D839-3674-D448DD15EFCB" name="Autobus_Model_autobusu_FK">
 <createdBy>i3olo</createdBy>
-<createdTime>2017-03-28 19:22:12 UTC</createdTime>
+<createdTime>2017-03-28 19:48:59 UTC</createdTime>
 <generatorID>4D791EDB-48E1-8F1B-369F-3A54916DD646</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="1258723E-3151-3FB3-CF78-15D61056EE12"/>
-<colUsage columnID="155293C2-5E32-B9DF-78DF-8D42C16EC2F0"/>
+<colUsage columnID="7E226FC2-1B46-3857-8288-E5F918A9D51A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
