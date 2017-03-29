@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3026B2D8-D2E6-1547-6C6F-9BFC9CD771BF" name="Przy_koncowy">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:52:07 UTC</createdTime>
+<generatorID>7E591F98-92D6-C885-3492-D5FEB39B93C2</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="545ED9D5-5D19-9FFE-01DE-DCC24E042EF4">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:52:07 UTC</createdTime>
+<generatorID>A9D50A99-E56B-8C83-0D00-BC996F7C85DD</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Przystanek_ID" id="42147AB4-E249-9D52-EB76-99355590333C">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:52:07 UTC</createdTime>
+<generatorID>08889C3D-C967-C13B-DC97-01FCE1D2F4D5</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B351A3C9-34CE-F264-16B1-D5F4F2C058B6" referredColumn="5A5794A6-01DF-5D44-F344-538BC4DA5CA5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91CD556C-04BB-85B0-62BC-9CD1DE49A690" name="Przy_koncowy_PK">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:52:07 UTC</createdTime>
+<generatorID>3584487F-ABF7-F920-37A2-881B3E06F18F</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="545ED9D5-5D19-9FFE-01DE-DCC24E042EF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8FE7AE8-41C9-18E8-3ECB-292EB5A5D9CC" name="Przy_koncowy_Przystanek_FK">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:52:07 UTC</createdTime>
+<generatorID>082E6D0B-AB5B-D142-3784-860F02DD4290</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42147AB4-E249-9D52-EB76-99355590333C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9D1A6783-8F58-B8C3-9331-25AD9D5A130F" name="Przystanek_poczatkowy">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9D1A6783-8F58-B8C3-9331-25AD9D5A130F" name="Przy_poczatkowy">
 <createdBy>i3olo</createdBy>
 <createdTime>2017-03-28 18:50:11 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
@@ -22,9 +22,9 @@
 <engineerTo>
 <item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>6B9E10FD-E8F7-E494-1C59-95549DBEE67A</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <listOfRanges>
 <rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
@@ -53,8 +53,9 @@
 <createdBy>i3olo</createdBy>
 <createdTime>2017-03-28 18:51:14 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
+<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

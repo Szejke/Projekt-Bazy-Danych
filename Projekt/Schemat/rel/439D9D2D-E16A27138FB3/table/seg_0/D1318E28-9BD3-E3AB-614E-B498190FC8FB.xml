@@ -1,0 +1,199 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1318E28-9BD3-E3AB-614E-B498190FC8FB" name="Przejazd">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:49:41 UTC</createdTime>
+<generatorID>F65EB20C-8446-3E16-DFEB-9B9B76E62D5E</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="C231E8F9-F795-726C-C95F-6D05D1AB7D46">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:49:41 UTC</createdTime>
+<generatorID>D58E4ED0-8E4E-1283-0801-BEA288140BE6</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kierowca_ID" id="BBF138FF-E721-1810-2DF5-0CBCC49F4BF3">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:49:41 UTC</createdTime>
+<generatorID>E22EC3D8-ED17-95B3-E75D-B03498BCACAC</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98F59259-D721-144A-6013-0C9ACC2D264D" referredColumn="9D03E614-B1B2-507A-3FEA-E2A1018EF46A"/>
+</associations>
+</Column>
+<Column name="Autobus_ID" id="05C32646-DD7E-335E-FBFC-CA846DFD7054">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:49:41 UTC</createdTime>
+<generatorID>8B5C3FD2-7A53-2719-05BE-4C8802A3B29D</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F6B0A2B-B808-B6F6-A662-1B460D101CAA" referredColumn="8890BEFB-48F0-9B43-5121-6632B7D2CE0C"/>
+</associations>
+</Column>
+<Column name="Data_przejazdu_ID" id="83A0D6B2-E422-DAF3-2AAB-0F135E5B7E93">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:49:41 UTC</createdTime>
+<generatorID>C7B1400D-8727-5191-DA36-CFC67650D2A2</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98748B28-3A7A-C94F-FEB0-259FFA172E99" referredColumn="5F9D97A8-E91A-F908-78B6-5C04086E624B"/>
+</associations>
+</Column>
+<Column name="Przy_koncowy_ID" id="D504240E-DD21-8288-C5C0-C27A5E66CA8D">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:49:41 UTC</createdTime>
+<generatorID>F8588016-EEA9-3B60-D507-C01842C9C17E</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C838EC9-D791-3BE8-66D3-79FF4EEA0CD9" referredColumn="5CEFB043-CFC1-D86D-6CC7-3A0D342B4304"/>
+</associations>
+</Column>
+<Column name="Przy_poczatkowy_ID" id="986542FE-E177-FEF1-47B2-D5106178E51B">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:49:41 UTC</createdTime>
+<generatorID>40B44E3F-4C07-A4D0-EB34-8E654150C4D1</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>999999</endValue>
+</rangeDef>
+</listOfRanges>
+<associations>
+<colAssociation fkAssociation="A8374C6C-33D6-A029-83F7-E755B911E676" referredColumn="DAB56AB8-9C3F-CD75-6FBD-117C15F2CF1A"/>
+</associations>
+</Column>
+<Column name="Bilet_ID" id="8689B61F-0F26-75C6-CB2B-B4E1494F4206">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:49:41 UTC</createdTime>
+<generatorID>6C8FA764-7185-B48B-F362-7C5AB77FDEBF</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8DD880F-014F-0316-02D9-CE65650CAE18" referredColumn="ECC404BD-9E10-DA63-5EF8-3BDCB65F30DC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="65C4596E-6987-7FF3-70F4-DC7252E0EE08" name="Przejazd_PK">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:49:41 UTC</createdTime>
+<generatorID>E3BECBA2-38E5-34F6-3FC4-3C871CB146EE</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C231E8F9-F795-726C-C95F-6D05D1AB7D46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DD7AEE4-F0D9-FE28-29AB-EA3A8D6AFCFE" name="Przejazd_Autobus_FK">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:49:41 UTC</createdTime>
+<generatorID>EBA3147F-33A4-D8D9-18B9-BF23D621C37B</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05C32646-DD7E-335E-FBFC-CA846DFD7054"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77346CE1-CAB3-59CB-C5B9-4DC70F5E805F" name="Przejazd_Data_przejazdu_FK">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:49:41 UTC</createdTime>
+<generatorID>C17CAB68-2302-E3AB-0DA4-59FB8200FCFC</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83A0D6B2-E422-DAF3-2AAB-0F135E5B7E93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB75FF6D-1EAD-F802-0748-C2DAD3648B73" name="Przejazd_Kierowca_FK">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:49:41 UTC</createdTime>
+<generatorID>D305F5CE-6A64-07FE-66F5-C95DE3FF6ED8</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBF138FF-E721-1810-2DF5-0CBCC49F4BF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53FE1C55-755D-157F-2BA4-1ABEF3143421" name="Przejazd_Przy_koncowy_FK">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:49:41 UTC</createdTime>
+<generatorID>0AC912A3-E36B-5EB0-BA66-D87B13D60B72</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D504240E-DD21-8288-C5C0-C27A5E66CA8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92733D53-55BA-8023-F0B6-F2F120A54E10" name="Przejazd_Przy_poczatkowy_FK">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:49:41 UTC</createdTime>
+<generatorID>7FB96A50-2DFC-61C1-2A0D-A8693204C8B3</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="986542FE-E177-FEF1-47B2-D5106178E51B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F431788-5506-91D4-B99A-D819BB54253F" name="Przejazd_Bilet_FK">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:49:41 UTC</createdTime>
+<generatorID>51E3366C-FA2C-C781-353F-FBEC0243FE90</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8689B61F-0F26-75C6-CB2B-B4E1494F4206"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

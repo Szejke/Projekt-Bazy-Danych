@@ -38,7 +38,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID1" id="671A0A01-0944-48B7-053A-916E5E1DFB60">
 <createdBy>i3olo</createdBy>
@@ -65,7 +66,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -73,8 +75,9 @@
 <createdBy>i3olo</createdBy>
 <createdTime>2017-03-28 19:06:30 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
+<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -37,8 +37,9 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Procent_zniżki" id="BFCE3717-314F-B3D2-4A98-890091DAD530">
 <createdBy>i3olo</createdBy>
@@ -59,8 +60,9 @@
 <createdBy>i3olo</createdBy>
 <createdTime>2017-03-28 19:48:46 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
+<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F773692B-C218-7171-DD22-28A08BFD0387" name="Model">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:52:06 UTC</createdTime>
+<generatorID>AA816FB4-874C-57B0-0020-79D798EC55B3</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="9CA53AD3-E335-0639-35DD-B2DF5B461B9D">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:52:06 UTC</createdTime>
+<generatorID>980B2E9E-6AFF-CED4-8385-E3340FDEE989</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="266048D4-ED03-F755-27B0-AF018BD3A895">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:52:06 UTC</createdTime>
+<generatorID>B2AE64CF-9017-ED1F-2034-C914A56D2D83</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ilosc_Miejsc" id="86C8B8C7-A443-2F9E-719E-3A604D20CAA9">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:52:06 UTC</createdTime>
+<generatorID>858D8BB8-94D0-3B95-8206-8582937F2269</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Marka_ID" id="34DCD050-F62F-2B6D-220E-9D78A14711DE">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:52:06 UTC</createdTime>
+<generatorID>12F3D81F-B3DB-0372-6444-B231279876FF</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83BD6907-2F1E-48F3-AD01-77CE6FBDC26B" referredColumn="BE6CA7C4-C623-730C-525D-A96EA2700011"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39CF1081-95EA-8EA4-DD3F-E2AE7DE74B96" name="Model_PK">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:52:06 UTC</createdTime>
+<generatorID>C6D9B501-4ECC-165C-C7D0-8EC37F89DC87</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CA53AD3-E335-0639-35DD-B2DF5B461B9D"/>
+<colUsage columnID="34DCD050-F62F-2B6D-220E-9D78A14711DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B95DDA3E-27F5-6F18-C493-FD2DD749B03C" name="Model_Marka_FK">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:52:07 UTC</createdTime>
+<generatorID>1F88DDB1-E7C1-5737-4B93-CD7CDB11CFD3</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34DCD050-F62F-2B6D-220E-9D78A14711DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

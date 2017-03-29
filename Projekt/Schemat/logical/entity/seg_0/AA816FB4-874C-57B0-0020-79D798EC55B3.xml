@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AA816FB4-874C-57B0-0020-79D798EC55B3" name="Model_autobusu">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AA816FB4-874C-57B0-0020-79D798EC55B3" name="Model">
 <createdBy>i3olo</createdBy>
 <createdTime>2017-03-28 18:54:47 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
-<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
+<item key="439D9D2D-91C8-1979-53A1-E16A27138FB3" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2017-03-28 18:54:56 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
-<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
+<item key="439D9D2D-91C8-1979-53A1-E16A27138FB3" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,20 +32,21 @@
 <createdTime>2017-03-28 18:55:15 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
-<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
+<item key="439D9D2D-91C8-1979-53A1-E16A27138FB3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Ilosc_Miejsc" id="858D8BB8-94D0-3B95-8206-8582937F2269">
 <createdBy>i3olo</createdBy>
 <createdTime>2017-03-28 18:56:36 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
-<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
+<item key="439D9D2D-91C8-1979-53A1-E16A27138FB3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -60,9 +61,10 @@
 <generatorID>1F88DDB1-E7C1-5737-4B93-CD7CDB11CFD3</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
-<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
+<item key="439D9D2D-91C8-1979-53A1-E16A27138FB3" value="true"/>
 </engineerTo>
 <referedAttribute>57A96CC8-D737-88CD-AA27-ACA915D6DF40</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -74,7 +76,7 @@
 <createdTime>2017-03-28 18:55:01 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
-<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
+<item key="439D9D2D-91C8-1979-53A1-E16A27138FB3" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

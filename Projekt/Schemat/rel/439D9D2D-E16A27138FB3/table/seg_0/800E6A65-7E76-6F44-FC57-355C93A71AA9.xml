@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="800E6A65-7E76-6F44-FC57-355C93A71AA9" name="Wojew">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:49:41 UTC</createdTime>
+<generatorID>8A14AB4B-5C47-E97F-FFA0-9AE0D7E0F985</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="A1707B05-03A6-B833-2D1C-BAD5DA4363EA">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:49:41 UTC</createdTime>
+<generatorID>F7CD4905-8367-4B42-07AB-AAD438AA68B5</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="38E46300-1DF5-A9A7-0799-AB4C585893E3">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:49:41 UTC</createdTime>
+<generatorID>B55EB22B-0AD5-6ABC-6D27-6E6E671A462E</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Wojew_ID" id="E3E8C327-2301-9DE8-03E7-615DA14DFA96">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:49:41 UTC</createdTime>
+<ownerDesignName>Schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="910E878F-1337-8033-4521-C42C3D97BF34" name="Wojew_PK">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-29 11:49:41 UTC</createdTime>
+<ownerDesignName>Schemat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="E3E8C327-2301-9DE8-03E7-615DA14DFA96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7E591F98-92D6-C885-3492-D5FEB39B93C2" name="Przystanek koncowy">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7E591F98-92D6-C885-3492-D5FEB39B93C2" name="Przy_koncowy">
 <createdBy>i3olo</createdBy>
 <createdTime>2017-03-28 19:04:37 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
@@ -47,8 +47,9 @@
 <createdBy>i3olo</createdBy>
 <createdTime>2017-03-28 19:04:54 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
+<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
