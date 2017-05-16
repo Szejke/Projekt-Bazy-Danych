@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="004D5027-80ED-0C3B-1B89-B89E86A619C5" name="Bilet">
-<createdBy>Rafał</createdBy>
-<createdTime>2017-03-29 11:52:06 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="033E7ABB-A38B-142E-A062-D1E31BD834A6" name="Bilet">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:29:41 UTC</createdTime>
 <generatorID>D8107D73-730A-0B42-2BC0-B35CB077F655</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="658A014B-B0E3-B471-BB4A-4B8BDBB8B14E">
-<createdBy>Rafał</createdBy>
-<createdTime>2017-03-29 11:52:06 UTC</createdTime>
+<Column name="ID" id="83B87189-55C1-9620-BE76-0E120F61B94C">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:29:41 UTC</createdTime>
 <generatorID>617D143B-CC65-2B0E-67A5-A51BA6156967</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Rodzaj_biletu_ID" id="344F08F6-C2DC-ACB7-70B0-2DA5F69D3941">
-<createdBy>Rafał</createdBy>
-<createdTime>2017-03-29 11:52:06 UTC</createdTime>
+<Column name="Rodzaj_biletu_ID" id="3B7D3838-AA24-32D1-76BD-337051DE0CA3">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:29:41 UTC</createdTime>
 <generatorID>1918BA32-96A5-147A-E8E4-BFE97450447B</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,32 +31,32 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="3F9046CD-65C2-673E-BAC7-DB6A6F146FD2" referredColumn="40D282FC-40C0-5BE4-3ECB-3AA322FC909E"/>
+<colAssociation fkAssociation="48080E91-8A7B-4A00-217D-88797DE01BF9" referredColumn="52EDBB18-EFF3-4B7D-A747-0D032C1B4D36"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="37135859-87B9-96A7-4977-5A4F1DAB4D23" name="Bilet_PK">
-<createdBy>Rafał</createdBy>
-<createdTime>2017-03-29 11:52:06 UTC</createdTime>
+<ind_PK_UK id="6B6AB05D-2D7E-93D3-E919-3368F3914DF1" name="Bilet_PK">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:29:41 UTC</createdTime>
 <generatorID>C5723BA6-52F4-E00E-0B5A-501571AE686D</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="658A014B-B0E3-B471-BB4A-4B8BDBB8B14E"/>
+<colUsage columnID="83B87189-55C1-9620-BE76-0E120F61B94C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="54C0FE2A-0A13-A6A3-35B4-7415EB79A42C" name="Bilet_Rodzaj_biletu_FK">
-<createdBy>Rafał</createdBy>
-<createdTime>2017-03-29 11:52:07 UTC</createdTime>
+<ind_PK_UK id="26AD8C27-4D55-B1A2-0455-C51C784B6ECF" name="Bilet_Rodzaj_biletu_FK">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:29:41 UTC</createdTime>
 <generatorID>814EE47C-9F58-A27E-9398-33F00B47D2BC</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="344F08F6-C2DC-ACB7-70B0-2DA5F69D3941"/>
+<colUsage columnID="3B7D3838-AA24-32D1-76BD-337051DE0CA3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

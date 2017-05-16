@@ -1,29 +1,28 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05BCD228-55D1-3C18-A857-FC7774D9FC0E" name="Wojew">
-<createdBy>Rafał</createdBy>
-<createdTime>2017-03-29 11:52:07 UTC</createdTime>
-<generatorID>8A14AB4B-5C47-E97F-FFA0-9AE0D7E0F985</generatorID>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2EF4866E-8514-1472-DB1A-4F8377BB114B" name="Rodzaj_biletu">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:29:41 UTC</createdTime>
+<generatorID>FFFEB79C-A9EC-56E5-DBD0-6A505E95554A</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="DDAEB840-318F-68FD-4351-E951C85F3AA1">
-<createdBy>Rafał</createdBy>
-<createdTime>2017-03-29 11:52:07 UTC</createdTime>
-<generatorID>F7CD4905-8367-4B42-07AB-AAD438AA68B5</generatorID>
+<Column name="ID" id="52EDBB18-EFF3-4B7D-A747-0D032C1B4D36">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:29:41 UTC</createdTime>
+<generatorID>E809A6C3-67D0-1AA9-7026-89E797429520</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Nazwa" id="837FFFDB-6AE9-1D5F-D828-63C1464DD210">
-<createdBy>Rafał</createdBy>
-<createdTime>2017-03-29 11:52:07 UTC</createdTime>
-<generatorID>B55EB22B-0AD5-6ABC-6D27-6E6E671A462E</generatorID>
+<Column name="Nazwa" id="355F096C-8B8A-45CD-F2F0-0EBE2F28F386">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:29:41 UTC</createdTime>
+<generatorID>B9631FC6-241D-48AC-F3F1-890E2EE7173D</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -33,29 +32,30 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Wojew_ID" id="3559464F-5604-93F9-ABBD-23C4FF44FAF4">
-<createdBy>Rafał</createdBy>
-<createdTime>2017-03-29 11:52:07 UTC</createdTime>
+<Column name="Procent_zniżki" id="F2A64153-97F8-6700-AF71-21AC35542437">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:29:41 UTC</createdTime>
+<generatorID>BFCE3717-314F-B3D2-4A98-890091DAD530</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementColumn>true</autoIncrementColumn>
-<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<isSurrogateColumn>true</isSurrogateColumn>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="0AF06FF2-12B2-4E20-02C5-75D9BA68B610" name="Wojew_PK">
-<createdBy>Rafał</createdBy>
-<createdTime>2017-03-29 11:52:07 UTC</createdTime>
+<ind_PK_UK id="FE32D3CF-B36E-5C51-D18C-2A1AF453D6C6" name="Rodzaj_biletu_PK">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:29:41 UTC</createdTime>
+<generatorID>BC50C831-9384-A50E-6E9A-DD9AB46653F8</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3559464F-5604-93F9-ABBD-23C4FF44FAF4"/>
+<colUsage columnID="52EDBB18-EFF3-4B7D-A747-0D032C1B4D36"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

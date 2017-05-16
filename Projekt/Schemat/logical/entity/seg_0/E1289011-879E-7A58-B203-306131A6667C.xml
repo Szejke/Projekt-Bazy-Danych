@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7E591F98-92D6-C885-3492-D5FEB39B93C2" name="Przy_koncowy">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E1289011-879E-7A58-B203-306131A6667C" name="Linia">
 <createdBy>i3olo</createdBy>
-<createdTime>2017-03-28 19:04:37 UTC</createdTime>
+<createdTime>2017-05-16 16:13:33 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
-<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
+<item key="A4ADB8F4-7993-0FE3-BE8E-8F528B1300C6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,45 +15,45 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="A9D50A99-E56B-8C83-0D00-BC996F7C85DD">
+<Attribute name="ID" id="80B7239F-1072-13C6-E42E-6B9A385C0D31">
 <createdBy>i3olo</createdBy>
-<createdTime>2017-03-28 19:04:45 UTC</createdTime>
+<createdTime>2017-05-16 16:13:40 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
-<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
+<item key="A4ADB8F4-7993-0FE3-BE8E-8F528B1300C6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="08889C3D-C967-C13B-DC97-01FCE1D2F4D5">
+<Attribute name="Nazwa_linii" id="C77C35B9-4038-8182-D1A8-666814BEF88B">
 <createdBy>i3olo</createdBy>
-<createdTime>2017-03-28 19:11:54 UTC</createdTime>
-<generatorID>082E6D0B-AB5B-D142-3784-860F02DD4290</generatorID>
+<createdTime>2017-05-16 16:13:52 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
-<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
+<item key="A4ADB8F4-7993-0FE3-BE8E-8F528B1300C6" value="true"/>
 </engineerTo>
-<referedAttribute>978A85E0-50BE-64CF-DA54-BD6C138B1C1B</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="3584487F-ABF7-F920-37A2-881B3E06F18F" name="Przystanek koncowy PK">
+<identifier id="814EF99B-2E44-3A1C-C16D-B5CACB55392D" name="Linia PK">
 <createdBy>i3olo</createdBy>
-<createdTime>2017-03-28 19:04:54 UTC</createdTime>
+<createdTime>2017-05-16 16:14:21 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="false"/>
+<item key="A4ADB8F4-7993-0FE3-BE8E-8F528B1300C6" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>A9D50A99-E56B-8C83-0D00-BC996F7C85DD</attributeRef>
+<attributeRef>80B7239F-1072-13C6-E42E-6B9A385C0D31</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
