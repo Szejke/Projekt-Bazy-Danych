@@ -5,15 +5,6 @@ CREATE TABLE Autobus
  ) ;
 ALTER TABLE Autobus ADD CONSTRAINT Autobus_PK PRIMARY KEY ( ID ) ;
 
-
-CREATE TABLE Bilet
-( 
-	ID 					NUMBER NOT NULL , 
-	Rodzaj_biletu_ID 	NUMBER NOT NULL
-) ;
-ALTER TABLE Bilet ADD CONSTRAINT Bilet_PK PRIMARY KEY ( ID ) ;
-
-
 CREATE TABLE Data_przejazdu
 ( 
 	ID 					NUMBER NOT NULL ,
@@ -63,7 +54,7 @@ CREATE TABLE Przejazd
     Kierowca_ID        NUMBER NOT NULL ,
     Autobus_ID         NUMBER NOT NULL ,
     Data_przejazdu_ID  NUMBER NOT NULL ,
-    Bilet_ID           NUMBER NOT NULL ,
+    Rodzaj_Biletu_ID   NUMBER NOT NULL ,
     Linia_ID           NUMBER NOT NULL ,
     Przebyta_odleglosc NUMBER ,
     Cena_przejazdu     NUMBER ,
@@ -84,13 +75,11 @@ ALTER TABLE Rodzaj_biletu ADD CONSTRAINT Rodzaj_biletu_PK PRIMARY KEY ( ID ) ;
 
 ALTER TABLE Autobus ADD CONSTRAINT Autobus_Model_FK FOREIGN KEY ( Model_ID ) REFERENCES Model ( ID ) ;
 
-ALTER TABLE Bilet ADD CONSTRAINT Bilet_Rodzaj_biletu_FK FOREIGN KEY ( Rodzaj_biletu_ID ) REFERENCES Rodzaj_biletu ( ID ) ;
-
 ALTER TABLE Model ADD CONSTRAINT Model_Marka_FK FOREIGN KEY ( Marka_ID ) REFERENCES Marka ( ID ) ;
 
 ALTER TABLE Przejazd ADD CONSTRAINT Przejazd_Autobus_FK FOREIGN KEY ( Autobus_ID ) REFERENCES Autobus ( ID ) ;
 
-ALTER TABLE Przejazd ADD CONSTRAINT Przejazd_Bilet_FK FOREIGN KEY ( Bilet_ID ) REFERENCES Bilet ( ID ) ;
+ALTER TABLE Przejazd ADD CONSTRAINT Przejazd_R_Bilet_FK FOREIGN KEY ( Rodzaj_Biletu_ID ) REFERENCES Rodzaj_Biletu ( ID ) ;
 
 ALTER TABLE Przejazd ADD CONSTRAINT Przejazd_Data_przejazdu_FK FOREIGN KEY ( Data_przejazdu_ID ) REFERENCES Data_przejazdu ( ID ) ;
 
