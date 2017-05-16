@@ -4,7 +4,7 @@
 <createdTime>2017-03-22 19:31:50 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
-<item key="A4ADB8F4-7993-0FE3-BE8E-8F528B1300C6" value="true"/>
+<item key="19282B58-818D-B55D-13B5-E9D47CF87489" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2017-03-22 19:39:40 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
-<item key="A4ADB8F4-7993-0FE3-BE8E-8F528B1300C6" value="true"/>
+<item key="19282B58-818D-B55D-13B5-E9D47CF87489" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <generatorID>D305F5CE-6A64-07FE-66F5-C95DE3FF6ED8</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
-<item key="A4ADB8F4-7993-0FE3-BE8E-8F528B1300C6" value="true"/>
+<item key="19282B58-818D-B55D-13B5-E9D47CF87489" value="true"/>
 </engineerTo>
 <referedAttribute>4B9BDB72-3E2E-9477-EC62-CB9667656693</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -47,7 +47,7 @@
 <generatorID>EBA3147F-33A4-D8D9-18B9-BF23D621C37B</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
-<item key="A4ADB8F4-7993-0FE3-BE8E-8F528B1300C6" value="true"/>
+<item key="19282B58-818D-B55D-13B5-E9D47CF87489" value="true"/>
 </engineerTo>
 <referedAttribute>07853721-48C1-E73F-C28D-C4B8CC135BF9</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -61,23 +61,9 @@
 <generatorID>C17CAB68-2302-E3AB-0DA4-59FB8200FCFC</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
-<item key="A4ADB8F4-7993-0FE3-BE8E-8F528B1300C6" value="true"/>
+<item key="19282B58-818D-B55D-13B5-E9D47CF87489" value="true"/>
 </engineerTo>
 <referedAttribute>A38C09EE-6F41-8C96-3DCF-DDEB5E7F9B45</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID4" id="6C8FA764-7185-B48B-F362-7C5AB77FDEBF">
-<createdBy>i3olo</createdBy>
-<createdTime>2017-03-28 19:20:16 UTC</createdTime>
-<generatorID>51E3366C-FA2C-C781-353F-FBEC0243FE90</generatorID>
-<ownerDesignName>Schemat</ownerDesignName>
-<engineerTo>
-<item key="A4ADB8F4-7993-0FE3-BE8E-8F528B1300C6" value="true"/>
-</engineerTo>
-<referedAttribute>617D143B-CC65-2B0E-67A5-A51BA6156967</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -89,7 +75,7 @@
 <generatorID>EA8B578E-9437-0DC1-322D-AF6F5385F7B7</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
-<item key="A4ADB8F4-7993-0FE3-BE8E-8F528B1300C6" value="true"/>
+<item key="19282B58-818D-B55D-13B5-E9D47CF87489" value="true"/>
 </engineerTo>
 <referedAttribute>80B7239F-1072-13C6-E42E-6B9A385C0D31</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -97,12 +83,12 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Przebyta_odległosc" id="E24F4EFF-F90F-E945-1031-DE96ECAB17B7">
+<Attribute name="Przebyta_odleglosc" id="E24F4EFF-F90F-E945-1031-DE96ECAB17B7">
 <createdBy>i3olo</createdBy>
 <createdTime>2017-05-16 16:15:34 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
-<item key="A4ADB8F4-7993-0FE3-BE8E-8F528B1300C6" value="true"/>
+<item key="19282B58-818D-B55D-13B5-E9D47CF87489" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -115,7 +101,7 @@
 <createdTime>2017-05-16 16:16:33 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
-<item key="A4ADB8F4-7993-0FE3-BE8E-8F528B1300C6" value="true"/>
+<item key="19282B58-818D-B55D-13B5-E9D47CF87489" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -128,7 +114,7 @@
 <createdTime>2017-05-16 16:25:36 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
-<item key="A4ADB8F4-7993-0FE3-BE8E-8F528B1300C6" value="true"/>
+<item key="19282B58-818D-B55D-13B5-E9D47CF87489" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -141,9 +127,23 @@
 <createdTime>2017-05-16 16:25:52 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
-<item key="A4ADB8F4-7993-0FE3-BE8E-8F528B1300C6" value="true"/>
+<item key="19282B58-818D-B55D-13B5-E9D47CF87489" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID3" id="0BA65B97-CDBA-53E5-1DB7-D8181A2B95CA">
+<createdBy>Szejk</createdBy>
+<createdTime>2017-05-16 17:30:59 UTC</createdTime>
+<generatorID>15DB7955-F242-F8D3-09D3-7825978757D7</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="19282B58-818D-B55D-13B5-E9D47CF87489" value="true"/>
+</engineerTo>
+<referedAttribute>E809A6C3-67D0-1AA9-7026-89E797429520</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -155,9 +155,8 @@
 <createdBy>Rafał</createdBy>
 <createdTime>2017-03-22 19:39:58 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="A4ADB8F4-7993-0FE3-BE8E-8F528B1300C6" value="false"/>
+<item key="19282B58-818D-B55D-13B5-E9D47CF87489" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

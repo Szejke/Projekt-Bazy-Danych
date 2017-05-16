@@ -68,7 +68,7 @@ CREATE TABLE Rodzaj_biletu
   (
     ID             		NUMBER NOT NULL ,
     Nazwa          		VARCHAR2 (30) ,
-    Procent_zniżki 		NUMBER NOT NULL
+    Procent_znizki 		NUMBER NOT NULL
   ) ;
 ALTER TABLE Rodzaj_biletu ADD CONSTRAINT Rodzaj_biletu_PK PRIMARY KEY ( ID ) ;
 

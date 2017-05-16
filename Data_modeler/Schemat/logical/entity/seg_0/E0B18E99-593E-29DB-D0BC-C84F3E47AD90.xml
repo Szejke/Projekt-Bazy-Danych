@@ -4,7 +4,7 @@
 <createdTime>2017-03-22 19:33:07 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
-<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
+<item key="A4ADB8F4-7993-0FE3-BE8E-8F528B1300C6" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2017-03-22 19:40:33 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
-<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
+<item key="A4ADB8F4-7993-0FE3-BE8E-8F528B1300C6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,22 +33,10 @@
 <generatorID>4D791EDB-48E1-8F1B-369F-3A54916DD646</generatorID>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
-<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
+<item key="A4ADB8F4-7993-0FE3-BE8E-8F528B1300C6" value="true"/>
 </engineerTo>
 <referedAttribute>980B2E9E-6AFF-CED4-8385-E3340FDEE989</referedAttribute>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID11" id="D1962671-D1DA-A933-DF45-556C05BDC3B4">
-<createdBy>i3olo</createdBy>
-<createdTime>2017-03-28 18:58:49 UTC</createdTime>
-<generatorID>4D791EDB-48E1-8F1B-369F-3A54916DD646</generatorID>
-<ownerDesignName>Schemat</ownerDesignName>
-<engineerTo>
-<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
-</engineerTo>
-<referedAttribute>12F3D81F-B3DB-0372-6444-B231279876FF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -60,7 +48,7 @@
 <createdTime>2017-03-22 19:40:43 UTC</createdTime>
 <ownerDesignName>Schemat</ownerDesignName>
 <engineerTo>
-<item key="73D5052B-C2B4-1F2F-0DA9-0CA8ACB1F7BE" value="true"/>
+<item key="A4ADB8F4-7993-0FE3-BE8E-8F528B1300C6" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
