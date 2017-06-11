@@ -1,0 +1,7 @@
+sqlldr bd2/bd2 control=marka_autobusu.ctl
+sqlldr bd2/bd2 control=modele_autobusow.ctl
+sqlldr bd2/bd2 control=autobus.ctl
+sqlldr bd2/bd2 control=linia.ctl
+sqlldr bd2/bd2 control=kierowca.ctl
+sqlldr bd2/bd2 control=data_przejazdu.ctl
+sqlldr bd2/bd2 control=przejazd.ctl

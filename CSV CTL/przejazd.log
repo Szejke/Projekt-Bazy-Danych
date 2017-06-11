@@ -1,0 +1,55 @@
+
+SQL*Loader: Release 11.2.0.2.0 - Production on N Cze 11 16:57:06 2017
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   przejazd.ctl
+Data File:      D:\BD projekt.GIT\CSV CTL\przejazd.csv
+  Bad File:     przejazd.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table PRZEJAZD, loaded from every logical record.
+Insert option in effect for this table: REPLACE
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ID                                  FIRST     *   ,       CHARACTER            
+KIEROWCA_ID                          NEXT     *   ,       CHARACTER            
+AUTOBUS_ID                           NEXT     *   ,       CHARACTER            
+DATA_PRZEJAZDU_ID                    NEXT     *   ,       CHARACTER            
+LINIA_ID                             NEXT     *   ,       CHARACTER            
+PRZEBYTA_ODLEGLOSC                   NEXT     *   ,       CHARACTER            
+CENA_PRZEJAZDU                       NEXT     *   ,       CHARACTER            
+OBLOZENIE                            NEXT     *   ,       CHARACTER            
+ILOSC_OSOB                           NEXT     *   ,       CHARACTER            
+
+
+Table PRZEJAZD:
+  5000 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 148608 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:          5000
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on N  Cze 11 16:57:06 2017
+Run ended on N  Cze 11 16:57:07 2017
+
+Elapsed time was:     00:00:00.57
+CPU time was:         00:00:00.06
