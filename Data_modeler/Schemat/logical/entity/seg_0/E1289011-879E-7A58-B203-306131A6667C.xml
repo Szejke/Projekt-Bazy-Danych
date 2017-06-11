@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E1289011-879E-7A58-B203-306131A6667C" name="Linia">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:13:33 UTC</createdTime>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="A4ADB8F4-7993-0FE3-BE8E-8F528B1300C6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="80B7239F-1072-13C6-E42E-6B9A385C0D31">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:13:40 UTC</createdTime>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="A4ADB8F4-7993-0FE3-BE8E-8F528B1300C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa_linii" id="C77C35B9-4038-8182-D1A8-666814BEF88B">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:13:52 UTC</createdTime>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="A4ADB8F4-7993-0FE3-BE8E-8F528B1300C6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="814EF99B-2E44-3A1C-C16D-B5CACB55392D" name="Linia PK">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:14:21 UTC</createdTime>
+<ownerDesignName>Schemat</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A4ADB8F4-7993-0FE3-BE8E-8F528B1300C6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>80B7239F-1072-13C6-E42E-6B9A385C0D31</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

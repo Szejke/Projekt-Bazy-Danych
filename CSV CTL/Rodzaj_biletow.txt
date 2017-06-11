@@ -1,0 +1,6 @@
+load data
+infile 'D:\BD projekt.GIT\CSV CTL\rodzaj_biletow.csv'
+into table Rodzaj_biletu
+replace
+fields terminated by ','
+(ID,NAZWA,PROCENT_ZNIZKI)

@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F65EB20C-8446-3E16-DFEB-9B9B76E62D5E" name="Przejazd">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:31:50 UTC</createdTime>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="19282B58-818D-B55D-13B5-E9D47CF87489" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="D58E4ED0-8E4E-1283-0801-BEA288140BE6">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:39:40 UTC</createdTime>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="19282B58-818D-B55D-13B5-E9D47CF87489" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kierowca ID" id="E22EC3D8-ED17-95B3-E75D-B03498BCACAC">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:59:05 UTC</createdTime>
+<generatorID>D305F5CE-6A64-07FE-66F5-C95DE3FF6ED8</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="19282B58-818D-B55D-13B5-E9D47CF87489" value="true"/>
+</engineerTo>
+<referedAttribute>4B9BDB72-3E2E-9477-EC62-CB9667656693</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Autobus ID" id="8B5C3FD2-7A53-2719-05BE-4C8802A3B29D">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:59:05 UTC</createdTime>
+<generatorID>EBA3147F-33A4-D8D9-18B9-BF23D621C37B</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="19282B58-818D-B55D-13B5-E9D47CF87489" value="true"/>
+</engineerTo>
+<referedAttribute>07853721-48C1-E73F-C28D-C4B8CC135BF9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="C7B1400D-8727-5191-DA36-CFC67650D2A2">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-03-28 18:58:05 UTC</createdTime>
+<generatorID>C17CAB68-2302-E3AB-0DA4-59FB8200FCFC</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="19282B58-818D-B55D-13B5-E9D47CF87489" value="true"/>
+</engineerTo>
+<referedAttribute>A38C09EE-6F41-8C96-3DCF-DDEB5E7F9B45</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="F4AB68A0-5C0B-5FB9-D007-E213D2D106BC">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:15:11 UTC</createdTime>
+<generatorID>EA8B578E-9437-0DC1-322D-AF6F5385F7B7</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="19282B58-818D-B55D-13B5-E9D47CF87489" value="true"/>
+</engineerTo>
+<referedAttribute>80B7239F-1072-13C6-E42E-6B9A385C0D31</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Przebyta_odleglosc" id="E24F4EFF-F90F-E945-1031-DE96ECAB17B7">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:15:34 UTC</createdTime>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="19282B58-818D-B55D-13B5-E9D47CF87489" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cena_przejazdu" id="A94E780A-4589-DEF3-691A-E141440EBE15">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:16:33 UTC</createdTime>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="19282B58-818D-B55D-13B5-E9D47CF87489" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Oblozenie" id="4CE73780-A400-16A4-DB24-400A1CA556AF">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:25:36 UTC</createdTime>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="19282B58-818D-B55D-13B5-E9D47CF87489" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ilosc_osob" id="65408E3F-5093-5E5B-6553-1A535A3EC817">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:25:52 UTC</createdTime>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="19282B58-818D-B55D-13B5-E9D47CF87489" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID3" id="0BA65B97-CDBA-53E5-1DB7-D8181A2B95CA">
+<createdBy>Szejk</createdBy>
+<createdTime>2017-05-16 17:30:59 UTC</createdTime>
+<generatorID>15DB7955-F242-F8D3-09D3-7825978757D7</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="19282B58-818D-B55D-13B5-E9D47CF87489" value="true"/>
+</engineerTo>
+<referedAttribute>E809A6C3-67D0-1AA9-7026-89E797429520</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E3BECBA2-38E5-34F6-3FC4-3C871CB146EE" name="Przejazdy PK">
+<createdBy>Rafał</createdBy>
+<createdTime>2017-03-22 19:39:58 UTC</createdTime>
+<ownerDesignName>Schemat</ownerDesignName>
+<engineerTo>
+<item key="19282B58-818D-B55D-13B5-E9D47CF87489" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D58E4ED0-8E4E-1283-0801-BEA288140BE6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

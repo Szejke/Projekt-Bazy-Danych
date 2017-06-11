@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1F9793A-966C-3B93-DD35-CC63859CBE63" name="Autobus">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:29:41 UTC</createdTime>
+<generatorID>E0B18E99-593E-29DB-D0BC-C84F3E47AD90</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="6FCFB427-BCE3-18CD-B280-10C92994A42B">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:29:41 UTC</createdTime>
+<generatorID>07853721-48C1-E73F-C28D-C4B8CC135BF9</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Model_ID" id="12BBB462-C4CF-8440-BC04-15A3C086B605">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:29:41 UTC</createdTime>
+<generatorID>E9259E73-7320-11F7-7722-4509805D27D3</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63FFCB8A-450F-6380-78A2-F9EAF78048E5" referredColumn="0E2CB1D6-9AEB-DA21-6498-180FE8E65A9D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC7C9225-DCBE-04CA-A152-808FA5A359B8" name="Autobus_PK">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:29:41 UTC</createdTime>
+<generatorID>272FAC79-6758-B14F-1873-D7BFDA2E997F</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FCFB427-BCE3-18CD-B280-10C92994A42B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3074043B-AC41-7F48-0853-B998A8576AA2" name="Autobus_Model_FK">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:29:41 UTC</createdTime>
+<generatorID>4D791EDB-48E1-8F1B-369F-3A54916DD646</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12BBB462-C4CF-8440-BC04-15A3C086B605"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

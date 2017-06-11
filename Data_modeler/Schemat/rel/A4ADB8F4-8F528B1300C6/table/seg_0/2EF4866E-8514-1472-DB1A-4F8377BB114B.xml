@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2EF4866E-8514-1472-DB1A-4F8377BB114B" name="Rodzaj_biletu">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:29:41 UTC</createdTime>
+<generatorID>FFFEB79C-A9EC-56E5-DBD0-6A505E95554A</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="52EDBB18-EFF3-4B7D-A747-0D032C1B4D36">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:29:41 UTC</createdTime>
+<generatorID>E809A6C3-67D0-1AA9-7026-89E797429520</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="355F096C-8B8A-45CD-F2F0-0EBE2F28F386">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:29:41 UTC</createdTime>
+<generatorID>B9631FC6-241D-48AC-F3F1-890E2EE7173D</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Procent_zniżki" id="F2A64153-97F8-6700-AF71-21AC35542437">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:29:41 UTC</createdTime>
+<generatorID>BFCE3717-314F-B3D2-4A98-890091DAD530</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE32D3CF-B36E-5C51-D18C-2A1AF453D6C6" name="Rodzaj_biletu_PK">
+<createdBy>i3olo</createdBy>
+<createdTime>2017-05-16 16:29:41 UTC</createdTime>
+<generatorID>BC50C831-9384-A50E-6E9A-DD9AB46653F8</generatorID>
+<ownerDesignName>Schemat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52EDBB18-EFF3-4B7D-A747-0D032C1B4D36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
