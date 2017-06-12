@@ -1,5 +1,5 @@
 load data
-infile 'D:\BD projekt.GIT\CSV CTL\przejazd.csv'
+infile 'przejazd.csv'
 into table Przejazd
 replace
 fields terminated by ','

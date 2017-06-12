@@ -1,5 +1,5 @@
 load data
-infile 'D:\BD projekt.GIT\CSV CTL\autobus.csv'
+infile 'autobus.csv'
 into table Autobus
 replace
 fields terminated by ','

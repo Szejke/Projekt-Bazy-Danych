@@ -1,8 +1,8 @@
 
 -- 1a WYSWIETLA ILE DANY KIEROWCA W DANYM ROKU ZROBIL KILOMETROW
 SELECT 
-	p.kierowca_id, 
-	EXTRACT(YEAR FROM d.DATA) "ROK", 
+	NVL(TO_CHAR(p.kierowca_id),'Wszyscy kierowcy')"ID Kierowcy",
+	NVL(TO_CHAR(EXTRACT(YEAR FROM d.DATA)),'CA£OŒÆ') "ROK",
 	sum(p.przebyta_odleglosc) "Pokonana odleglosc"
 FROM 
 	przejazd p,
@@ -15,8 +15,8 @@ GROUP BY ROLLUP
 
 -- 1b WYSWIETLA ILE DANY AUTOBUS W DANYM ROKU ZROBIL KILOMETROW
 SELECT 
-	p.AUTOBUS_ID, 
-	EXTRACT(YEAR FROM d.DATA) "ROK", 
+	NVL(TO_CHAR(p.kierowca_id),'Wszyscy kierowcy')"ID Kierowcy", 
+	NVL(TO_CHAR(EXTRACT(YEAR FROM d.DATA)),'CA£OŒÆ') "ROK", 
 	sum(p.przebyta_odleglosc) "Pokonana odleglosc"
 FROM 
 	przejazd p,
@@ -28,8 +28,8 @@ GROUP BY ROLLUP
 
 -- 2a WYSWIETLA ILE DANA LINIA W DANYM ROKU PRZYNIOSLA DOCHODU
 SELECT 
-	l.nazwa_linii, 
-	EXTRACT(YEAR FROM d.DATA) "ROK", 
+	NVL(TO_CHAR(l.nazwa_linii),'Wszystkie linie') "NAZWA LINII",
+	NVL(TO_CHAR(EXTRACT(YEAR FROM d.DATA)),'CA£OŒÆ') "ROK", 
 	sum (p.cena_przejazdu) "DOCHÓD"
 FROM 
 	przejazd p, 
@@ -46,8 +46,8 @@ GROUP BY CUBE
 -- 2b WYSWIETLA ILE DANY AUTOBUS W DANYM ROKU PRZYNIOSL DOCHODU
 
 SELECT 
-	p.AUTOBUS_ID, 
-	EXTRACT(YEAR FROM d.DATA) "ROK", 
+	NVL(TO_CHAR(p.AUTOBUS_ID),'Wszystkie autobusy'), 
+	NVL(TO_CHAR(EXTRACT(YEAR FROM d.DATA)),'CA£OŒÆ') "ROK", 
 	sum (p.cena_przejazdu) "DOCHÓD"
 FROM 
 	przejazd p,  
@@ -60,7 +60,7 @@ GROUP BY CUBE
 
 -- 3a WYSWIETLA ILE NA DANEJ LINII PRZEWIEZIONO OSOB W DANYM ROKU
 SELECT 
-	l.nazwa_linii,
+	NVL(TO_CHAR(l.nazwa_linii),'Wszystkie linie')"NAZWA LINII",
 	EXTRACT(YEAR FROM d.DATA) "ROK", 
 	sum(ilosc_osob) "ILOSC OSOB"
 FROM 
@@ -78,9 +78,9 @@ GROUP BY GROUPING SETS(
 
 -- 3b WYSWIETLA JAKA ODLEGLOSC POKONAL DANY AUTOBUS NA DANEJ LINII
 SELECT 
-	l.NAZWA_LINII,
-	p.AUTOBUS_ID, 
-	sum(p.PRZEBYTA_ODLEGLOSC) "PRZEBYTA ODLEGLOSC W km"
+	NVL(TO_CHAR(l.NAZWA_LINII),'Wszystkie linie') "NAZWA LINII",
+	NVL(TO_CHAR(p.AUTOBUS_ID),'Wszystkie autobusy') "ID AUTOBUSU", 
+	TO_CHAR(sum(p.PRZEBYTA_ODLEGLOSC)||'km') "PRZEBYTA ODLEGLOSC"
 FROM 
   przejazd p, 
   linia l 
@@ -92,38 +92,12 @@ GROUP BY GROUPING SETS(
 )
 ;
 
-
-
-SELECT 
-  l.nazwa_linii, 
-  d.DATA ,
-  p.ilosc_osob, 
-  sum(ilosc_osob) OVER (PARTITION BY l.nazwa_linii) "SUMA ILOSC OSOB", 
-  round(p.ilosc_osob*100 /  m.ilosc_miejsc  )||'%' "PROCENT ZAJETYCH MIEJSC",
-  m.ilosc_miejsc 
-FROM 
-  przejazd p, 
-  data_przejazdu d, 
-  linia l, 
-  autobus A, 
-  MODEL m
-WHERE 
-  d.ID = p.data_przejazdu_id
-AND 
-  l.ID = p.linia_id
-AND 
-  A.ID = p.autobus_id
-AND 
-  m.ID = A.model_id
-ORDER BY 
-  l.nazwa_linii
-;
-
+-- 4a 
+--ZYSK DANEJ LINII W DANYM ROKU
 SELECT 
   l.nazwa_linii,
   EXTRACT(YEAR FROM d.DATA) "ROK",
-  p.cena_przejazdu,
-  sum(p.cena_przejazdu) OVER (PARTITION BY p.linia_id ORDER BY EXTRACT(YEAR FROM d.DATA) RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) "ZYSK"
+  sum(p.cena_przejazdu) OVER (PARTITION BY p.linia_id ORDER BY EXTRACT(YEAR FROM d.DATA) RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) "ZYSK W DANYM ROKU"
 FROM
   przejazd p,
   linia l,
@@ -134,6 +108,57 @@ AND
   p.data_przejazdu_id = d.ID
 ;
 
+
+--4b
+--zestawienie ilosci przejazdow dla danych kierowcow od pocz¹tku rozpoczêcia pracy
+SELECT DISTINCT
+	p.KIEROWCA_ID,
+  k.IMIE,
+  k.NAZWISKO,
+  EXTRACT(YEAR FROM d.data)"ROK",
+  COUNT(p.id) OVER (PARTITION BY p.KIEROWCA_ID ORDER BY EXTRACT(YEAR FROM d.data) RANGE BETWEEN UNBOUNDED PRECEDING and CURRENT row)
+FROM
+	przejazd p,
+  kierowca k,
+  data_przejazdu d
+WHERE
+  p.KIEROWCA_ID=k.ID
+AND
+  p.DATA_PRZEJAZDU_ID=d.ID
+ORDER BY p.KIEROWCA_ID, ROK
+;
+
+--5a
+--Ranking œrednej liczby pasa¿erów podró¿uj¹cych dan¹ lini¹
+SELECT DISTINCT
+  DENSE_RANK() OVER (ORDER BY AVG(p.ILOSC_OSOB) DESC) "Miejsce",
+  ROUND(AVG(p.ILOSC_OSOB),0) "Œrednia liczba osób",
+  l.NAZWA_LINII 
+FROM
+  PRZEJAZD p,
+  linia l
+WHERE
+ l.ID=p.LINIA_ID 
+group by 
+  l.NAZWA_LINII;
+
+-- 5b
+--Ranking linii która przynios³a najwiêcej dochodu
+  
+SELECT DISTINCT
+  DENSE_RANK() OVER (ORDER BY SUM(p.CENA_PRZEJAZDU) DESC) ,
+  ROUND(SUM(p.CENA_PRZEJAZDU),0) ,
+  l.NAZWA_LINII 
+FROM
+  PRZEJAZD p,
+  linia l
+WHERE
+ l.ID=p.LINIA_ID 
+group by 
+  l.NAZWA_LINII
+;
+
+  
 SELECT
   przejazd.ID ,
   przejazd.ilosc_osob,
@@ -144,3 +169,4 @@ GROUP BY
   przejazd.ID, 
   przejazd.ilosc_osob
 ;
+

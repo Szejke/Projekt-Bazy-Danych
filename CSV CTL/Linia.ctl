@@ -1,5 +1,5 @@
 load data
-infile 'D:\BD projekt.GIT\CSV CTL\Kierowca.csv'
+infile 'Linia.csv'
 into table Linia
 replace
 fields terminated by ','
