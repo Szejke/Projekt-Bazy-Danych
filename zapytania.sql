@@ -95,7 +95,7 @@ GROUP BY GROUPING SETS(
 -- 4a 
 --ZYSK DANEJ LINII W DANYM ROKU
 SELECT 
-  l.nazwa_linii,
+  l.nazwa_linii "NAZWA LINII",
   EXTRACT(YEAR FROM d.DATA) "ROK",
   sum(p.cena_przejazdu) OVER (PARTITION BY p.linia_id ORDER BY EXTRACT(YEAR FROM d.DATA) RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) "ZYSK W DANYM ROKU"
 FROM
@@ -112,11 +112,11 @@ AND
 --4b
 --zestawienie ilosci przejazdow dla danych kierowcow od pocz¹tku rozpoczêcia pracy
 SELECT DISTINCT
-	p.KIEROWCA_ID,
-  k.IMIE,
-  k.NAZWISKO,
-  EXTRACT(YEAR FROM d.data)"ROK",
-  COUNT(p.id) OVER (PARTITION BY p.KIEROWCA_ID ORDER BY EXTRACT(YEAR FROM d.data) RANGE BETWEEN UNBOUNDED PRECEDING and CURRENT row)
+  p.KIEROWCA_ID "ID KIEROWCY",
+  k.IMIE "IMIE",
+  k.NAZWISKO "NAZWISKO",
+  EXTRACT(YEAR FROM d.data) "ROK",
+  COUNT(p.id) OVER (PARTITION BY p.KIEROWCA_ID ORDER BY EXTRACT(YEAR FROM d.data) RANGE BETWEEN UNBOUNDED PRECEDING and CURRENT row) "ILOŒÆ PRZEJAZDÓW"
 FROM
 	przejazd p,
   kierowca k,
@@ -131,9 +131,9 @@ ORDER BY p.KIEROWCA_ID, ROK
 --5a
 --Ranking œrednej liczby pasa¿erów podró¿uj¹cych dan¹ lini¹
 SELECT DISTINCT
-  DENSE_RANK() OVER (ORDER BY AVG(p.ILOSC_OSOB) DESC) "Miejsce",
-  ROUND(AVG(p.ILOSC_OSOB),0) "Œrednia liczba osób",
-  l.NAZWA_LINII 
+  DENSE_RANK() OVER (ORDER BY AVG(p.ILOSC_OSOB) DESC) "MIEJSCE",
+  ROUND(AVG(p.ILOSC_OSOB),0) "ŒREDNIA LICZBA OSÓB",
+  l.NAZWA_LINII "NAZWA LINII"
 FROM
   PRZEJAZD p,
   linia l
@@ -146,9 +146,9 @@ group by
 --Ranking linii która przynios³a najwiêcej dochodu
   
 SELECT DISTINCT
-  DENSE_RANK() OVER (ORDER BY SUM(p.CENA_PRZEJAZDU) DESC) ,
-  ROUND(SUM(p.CENA_PRZEJAZDU),0) ,
-  l.NAZWA_LINII 
+  DENSE_RANK() OVER (ORDER BY SUM(p.CENA_PRZEJAZDU) DESC) "MIEJSCE" ,
+  ROUND(SUM(p.CENA_PRZEJAZDU),0) "PRZYNIESIONY DOCHÓD",
+  l.NAZWA_LINII "NAZWA LINII"
 FROM
   PRZEJAZD p,
   linia l
@@ -159,14 +159,4 @@ group by
 ;
 
   
-SELECT
-  przejazd.ID ,
-  przejazd.ilosc_osob,
-  rank() OVER (PARTITION BY NULL ORDER BY sum(ilosc_osob) DESC) AS "miejsce"
-FROM 
-  przejazd
-GROUP BY 
-  przejazd.ID, 
-  przejazd.ilosc_osob
-;
 
